@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #F2F5F9;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 164px;
+}
+
+.container{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    width: 419px;
+}
+.fig{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 419px;
+}
+.business{
+    width: 419px;
+    border: none;
+    border-radius: 15px;
+    padding-bottom: 2px;
+}
+.overlay{
+    width: 419px;
+    position: absolute;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 1.5rem;
+    margin: 15px 30px 15px 30px;
+    color: #111729;
+}
+.medium{
+    font-size: 16px;
+    font-weight: 1rem;
+    color: #677489;
+    margin: 15px 30px 30px 30px;
+}
+
+.footer{
+    padding: 30px;
+}
+.avatar{
+    width: 38px;
+    height: auto;
+    border: solid 4px #F2F5F9;
+    border-radius: 30px;
+    float: left;
+}
+.person{
+    font-size: 16px;
+    margin: 4px 0 2px 55px;
+}
+.position{
+    color: #677489;
+    margin: 2px 0 4px 55px;
+    font-size: 10px;
+}
